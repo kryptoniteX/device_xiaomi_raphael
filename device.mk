@@ -268,6 +268,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.raphael
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    RetroMusic
+
 # Media
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
