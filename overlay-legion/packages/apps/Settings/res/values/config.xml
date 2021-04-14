@@ -35,4 +35,11 @@
 
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
+
+    <!-- LegionOS About Overalys -->
+     <string name="legion_device_name_summary">Redmi K20 Pro</string>
+     <string name="legion_chipset_type_summary">Snapdragon 855</string>
+     <string name="legion_gpu_summary">Adreno 640</string>     
+     <string name="legion_camera_mp_summary">48 MP</string>
+     <string name="legion_screen_type_summary">Super AMOLED, HDR10</string>
 </resources>
