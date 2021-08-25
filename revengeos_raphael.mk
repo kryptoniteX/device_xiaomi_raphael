@@ -1,5 +1,4 @@
-# Copyright (C) 2021 ShapeShiftOS
-#
+# Copyright (C) 2021 RevengeOS
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -16,20 +15,20 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Legion stuff.
-LEGION_BUILD_TYPE := OFFICIAL
-LEGION_MAINTAINER :=AnonHacker47
+# Inherit some common RevengeOS stuff.
+REVENGEOS_BUILD_TYPE := UNOFFICIAL
+REVENGEOS_MAINTAINER := KryptoniteX
 TARGET_USES_BLUR := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+#TARGET_GAPPS_ARCH := arm64
+#TARGET_INCLUDE_STOCK_ARCORE := true
+$(call inherit-product, vendor/revengeos/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_PRODUCT_PROPERTIES += \
   ro.nezuko.cpu=SD855
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := legion_raphael
+PRODUCT_NAME := revengeos_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
