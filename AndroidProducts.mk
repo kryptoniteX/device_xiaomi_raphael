@@ -1,4 +1,4 @@
-# Copyright (C) 2020 LineageOS
+# Copyright (C) 2021 Revenge OS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_raphael.mk
+    $(LOCAL_DIR)/revengeos_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_raphael-user \
-    legion_raphael-userdebug \
-    legion_raphael-eng
+    revengeos_raphael-user \
+    revengeos_raphael-userdebug \
+    revengeos_raphael-eng
